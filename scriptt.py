@@ -1,7 +1,6 @@
 from __future__ import annotations
 
 import datetime as _dt
-from pathlib import Path
 from typing import Optional, Tuple
 
 import numpy as np
@@ -10,7 +9,6 @@ import pandas as pd
 # CONSTANTES
 # ---------------------------------------------------------------------------
 
-RUTA_DATOS = Path("/julie/PRACTICA9PCD")
 ARCHIVOS = [
     "emisiones-2016.csv",
     "emisiones-2017.csv",
